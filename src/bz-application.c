@@ -41,7 +41,7 @@ bz_application_new (const char       *application_id,
       BZ_TYPE_APPLICATION,
       "application-id", application_id,
       "flags", flags,
-      "resource-base-path", "/org/gnome/Example",
+      "resource-base-path", "/io/github/kolunmi",
       NULL);
 }
 
@@ -60,7 +60,7 @@ bz_application_activate (GApplication *app)
 
       css = gtk_css_provider_new ();
       gtk_css_provider_load_from_resource (
-          css, "/org/gnome/Example/gtk/styles.css");
+          css, "/io/github/kolunmi/bazaar/gtk/styles.css");
       gtk_style_context_add_provider_for_display (
           gdk_display_get_default (),
           GTK_STYLE_PROVIDER (css),
@@ -143,8 +143,8 @@ bz_application_about_action (GSimpleAction *action,
 
   adw_show_about_dialog (
       GTK_WIDGET (window),
-      "application-name", "bazaar",
-      "application-icon", "org.gnome.Example",
+      "application-name", "Bazaar",
+      "application-icon", "io.github.kolunmi.bazaar",
       "developer-name", "Adam Masciola",
       "translator-credits", _ ("translator-credits"),
       "version", "0.1.0",

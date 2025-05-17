@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=bazaar
+Name=Bazaar
 Exec=bazaar
-Icon=org.gnome.Example
+Icon=io.github.kolunmi.bazaar
 Terminal=false
 Type=Application
 Categories=Utility;

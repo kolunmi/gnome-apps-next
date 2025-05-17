@@ -109,7 +109,7 @@ bz_browse_widget_class_init (BzBrowseWidgetClass *klass)
 
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Example/bz-browse-widget.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/bazaar/bz-browse-widget.ui");
 }
 
 static void

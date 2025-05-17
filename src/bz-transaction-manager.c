@@ -154,7 +154,7 @@ bz_transaction_manager_class_init (BzTransactionManagerClass *klass)
 
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Example/bz-transaction-manager.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/bazaar/bz-transaction-manager.ui");
   gtk_widget_class_bind_template_child (widget_class, BzTransactionManager, no_selection);
   gtk_widget_class_bind_template_callback (widget_class, invert_boolean);
 }

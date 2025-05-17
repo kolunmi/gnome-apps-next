@@ -327,7 +327,7 @@ bz_search_widget_class_init (BzSearchWidgetClass *klass)
 
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Example/bz-search-widget.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/bazaar/bz-search-widget.ui");
   gtk_widget_class_bind_template_child (widget_class, BzSearchWidget, sheet);
   gtk_widget_class_bind_template_child (widget_class, BzSearchWidget, breakpoint);
   gtk_widget_class_bind_template_child (widget_class, BzSearchWidget, search_bar);

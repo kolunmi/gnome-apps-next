@@ -143,7 +143,7 @@
         <attribute name="action">win.show-help-overlay</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="yes">_About bazaar</attribute>
+        <attribute name="label" translatable="yes">_About Bazaar</attribute>
         <attribute name="action">app.about</attribute>
       </item>
     </section>

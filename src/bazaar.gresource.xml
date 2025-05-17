@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/org/gnome/Example">
+  <gresource prefix="/io/github/kolunmi/bazaar/">
     <file>gtk/styles.css</file>
     <file preprocess="xml-stripblanks">bz-window.ui</file>
     <file preprocess="xml-stripblanks">bz-transaction-manager.ui</file>

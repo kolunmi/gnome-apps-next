@@ -143,7 +143,7 @@ bz_window_class_init (BzWindowClass *klass)
   g_type_ensure (BZ_TYPE_TRANSACTION_MANAGER);
   g_type_ensure (BZ_TYPE_BROWSE_WIDGET);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Example/bz-window.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/bazaar/bz-window.ui");
   gtk_widget_class_bind_template_child (widget_class, BzWindow, background);
   gtk_widget_class_bind_template_child (widget_class, BzWindow, browse);
   gtk_widget_class_bind_template_child (widget_class, BzWindow, spinner);

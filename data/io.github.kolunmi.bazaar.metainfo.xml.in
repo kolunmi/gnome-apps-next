@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.kolunmi.bazaar</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Bazaar</name>
+  <!-- FIXME: add descriptions and summary -->
+  <summary>Keep the summary shorter, between 10 and 35 characters</summary>
+  <description>
+    <p>No description</p>
+  </description>
+
+  <developer id="io.github.kolunmi">
+    <name>Adam Masciola</name>
+  </developer>
+
+  <url type="homepage">https://github.com/kolunmi/bazaar</url>
+  <url type="vcs-browser">https://github.com/kolunmi/bazaar</url>
+  <url type="bugtracker">https://github.com/kolunmi/bazaar/issues</url>
+  <url type="translate">https://github.com/kolunmi/bazaar/tree/master/po</url>
+  <url type="faq">https://github.com/kolunmi/bazaar/blob/master/README.md</url>
+  <url type="help">https://github.com/kolunmi/bazaar/discussions</url>
+  <url type="donation">https://github.com/sponsors/kolunmi</url>
+  <url type="contact">https://github.com/kolunmi</url>
+  <url type="contribute">https://github.com/kolunmi/bazaar</url>
+
+  <translation type="gettext">bazaar</translation>
+  <launchable type="desktop-id">io.github.kolunmi.bazaar.desktop</launchable>
+  <content_rating type="oars-1.1" />
+
+  <!-- FIXME: figure out nice colors -->
+  <branding>
+    <color type="primary" scheme_preference="light">#ff00ff</color>
+    <color type="primary" scheme_preference="dark">#993d3d</color>
+  </branding>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://private-user-images.githubusercontent.com/113054217/443949986-1e305d42-8907-49d0-8522-ad9f9ed483a4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc1MTg2MTIsIm5iZiI6MTc0NzUxODMxMiwicGF0aCI6Ii8xMTMwNTQyMTcvNDQzOTQ5OTg2LTFlMzA1ZDQyLTg5MDctNDlkMC04NTIyLWFkOWY5ZWQ0ODNhNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxN1QyMTQ1MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZDEyN2JlODExNzc4MGJjZTMyNDU3OTYzNzJjMTVmMmU0OWE5NzE5ODc3YTBmNTgzNzY2NjkzMGNjMzA0MjdlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PsquhbTag3GuLjbdldbShEnQgT20gT4H7oRQGYYHgQQ</image>
+      <caption>Main Bazaar window showing Blender</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <!-- FIXME: fill in releases whenever theres a release -->
+    <release version="1.0.1" date="2024-01-18">
+      <url type="details">https://example.org/changelog.html#version_1.0.1</url>
+      <description translate="no">
+        <p>Release description</p>
+        <ul>
+          <li>List of changes</li>
+          <li>List of changes</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
